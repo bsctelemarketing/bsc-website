@@ -55,6 +55,73 @@ export default function PartnersPage() {
 
       <section className="section section-alt">
         <div className="container">
+          <span className="eyebrow">How BSC Fits Your Business</span>
+          <h2>How BSC Live works for each type of partner.</h2>
+          <p>
+            BSC Live can be offered in different ways depending on the services
+            your business already provides. Your clients can answer their own
+            website chats, or your team can provide managed live chat support
+            for assigned client companies.
+          </p>
+
+          <div className="card-grid">
+            <div className="service-card">
+              <h3>Web Design &amp; Development Agencies</h3>
+              <p>Add BSC Live Chat to the websites you build or manage. Your clients can answer their own chats using their BSC accounts, or you can offer live chat as an additional managed service.</p>
+            </div>
+            <div className="service-card">
+              <h3>Digital Marketing &amp; SEO Agencies</h3>
+              <p>Give your clients another way to engage the website traffic you help generate. Add Human + AI live chat to marketing packages so visitors can ask questions and start conversations directly from the website.</p>
+            </div>
+            <div className="service-card">
+              <h3>IT Service &amp; Technology Companies</h3>
+              <p>Add BSC Live Chat to your technology services without building and maintaining your own chat platform. Help clients connect their websites, manage access and provide ongoing support.</p>
+            </div>
+            <div className="service-card">
+              <h3>CRM &amp; Automation Consultants</h3>
+              <p>Add website conversations to the customer journey. BSC Live can help clients capture inquiries through live chat while you support their broader sales, customer-service and automation processes.</p>
+            </div>
+            <div className="service-card">
+              <h3>Business Consultants</h3>
+              <p>Introduce Human + AI live chat to clients that want to improve website communication and customer engagement. BSC Live can be offered as part of a broader business-service solution.</p>
+            </div>
+            <div className="service-card">
+              <h3>Call Centers &amp; Customer-Support Providers</h3>
+              <p>Expand beyond phone support by offering website live chat to your clients. Your Partner Chat Agents can answer conversations for assigned businesses, creating an additional managed customer-support service.</p>
+            </div>
+            <div className="service-card">
+              <h3>Lead-Generation Agencies</h3>
+              <p>Give website visitors a direct way to start a conversation instead of relying only on forms or phone calls. Live chat can complement the traffic and lead-generation services you already provide.</p>
+            </div>
+            <div className="service-card">
+              <h3>Managed Service Providers</h3>
+              <p>Add BSC Live Chat to your portfolio of managed business services. Manage assigned client companies and provide live chat as another recurring service alongside your existing technology and support offerings.</p>
+            </div>
+            <div className="service-card">
+              <h3>Independent Web Developers</h3>
+              <p>Offer Human + AI live chat when building or maintaining client websites. Install the BSC widget without developing your own live chat software and give clients access to a professional chat platform.</p>
+            </div>
+          </div>
+
+          <div className="split" style={{ marginTop: "2rem" }}>
+            <div className="control-panel">
+              <h3>Client-Managed Chat</h3>
+              <p>Your client uses their own BSC Client Administrator and Client Chat Agent accounts to communicate directly with website visitors. This works well for partners that want to provide the technology while the client manages its own conversations.</p>
+            </div>
+            <div className="control-panel">
+              <h3>Partner-Managed Chat</h3>
+              <p>Your authorized Partner Chat Agents answer conversations for assigned client companies through the BSC Partner Portal. This is ideal for call centers, support providers and agencies that want to offer managed live chat services.</p>
+            </div>
+          </div>
+
+          <p style={{ marginTop: "1.5rem", fontWeight: 600 }}>
+            BSC provides the live chat platform. You decide how to package and deliver the service to your clients.
+          </p>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
           <span className="eyebrow">Partner Portal</span>
           <h2>Manage multiple client companies from one place.</h2>
           <p>
@@ -277,9 +344,12 @@ export default function PartnersPage() {
             </p>
           </div>
 
-          <Link href="/contact" className="button button-light">
-            Become a BSC Partner
-          </Link>
+          <Link
+  href="/contact?interest=partner"
+  className="button button-light"
+>
+  Become a BSC Partner
+</Link>
         </div>
       </section>
     </main>

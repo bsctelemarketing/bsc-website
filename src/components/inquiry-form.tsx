@@ -1,9 +1,199 @@
 "use client";
-import {FormEvent,useState} from "react";
 
-export function InquiryForm({kind="trial"}:{kind?:"trial"|"contact"}){
- const [status,setStatus]=useState<"idle"|"sending"|"success"|"error">("idle");
- async function submit(event:FormEvent<HTMLFormElement>){event.preventDefault();setStatus("sending");const form=event.currentTarget;const data=new FormData(form);data.set("request_type",kind==="trial"?"15-Day Free Trial":"Contact Request");data.set("_subject",kind==="trial"?"New BSC Live Chat Free Trial Request":"New BSC Live Chat Contact Request");try{const response=await fetch(form.action,{method:"POST",body:data,headers:{Accept:"application/json"}});if(!response.ok)throw new Error();setStatus("success");form.reset()}catch{setStatus("error")}}
- if(status==="success")return <div className="form-success" role="status"><span>✓</span><h2>Thank you for contacting us.</h2><p>Your information has been sent to Business Solution Center. We’ll contact you about your BSC Live Chat {kind==="trial"?"free trial":"inquiry"}.</p></div>;
- return <form className="form-card control-panel" action="https://formspree.io/f/myeyjqyr" method="POST" onSubmit={submit}><div className="field"><label htmlFor={`${kind}-name`}>Full name</label><input id={`${kind}-name`} name="name" required maxLength={100}/></div><div className="field"><label htmlFor={`${kind}-company`}>Company name</label><input id={`${kind}-company`} name="company" required maxLength={120}/></div><div className="field"><label htmlFor={`${kind}-email`}>Business email</label><input id={`${kind}-email`} name="email" type="email" required maxLength={160}/></div><div className="field"><label htmlFor={`${kind}-phone`}>Phone number</label><input id={`${kind}-phone`} name="phone" type="tel" maxLength={50}/></div><div className="field full"><label htmlFor={`${kind}-website`}>Website URL</label><input id={`${kind}-website`} name="website" type="url" placeholder="https://" maxLength={300}/></div><div className="field full"><label htmlFor={`${kind}-plan`}>{kind==="trial"?"Preferred plan":"I’m interested in"}</label><select id={`${kind}-plan`} name="plan"><option>Self-Service Human + AI</option><option>BSC Human Chat Agents</option><option>Pay Per Qualified Lead</option><option>Pay Per Chat</option><option>Help me choose</option></select></div><div className="field full"><label htmlFor={`${kind}-message`}>{kind==="trial"?"What would you like BSC Live Chat to handle?":"How can we help?"}</label><textarea id={`${kind}-message`} name="message" required={kind==="contact"} maxLength={3000}/></div><input className="website-check" name="website_check" tabIndex={-1} autoComplete="off" aria-hidden="true"/><button className="button" type="submit" disabled={status==="sending"}>{status==="sending"?"Sending…":kind==="trial"?"Request My Free Trial":"Send Message"}</button>{status==="error"&&<p className="form-error" role="alert">We couldn’t send your information. Please try again or email info@bsctelemarketing.com.</p>}</form>
+import { FormEvent, useState } from "react";
+
+type InquiryFormProps = {
+  kind?: "trial" | "contact";
+  defaultPlan?: string;
+};
+
+export function InquiryForm({
+  kind = "trial",
+  defaultPlan = "Self-Service Human + AI",
+}: InquiryFormProps) {
+  const [status, setStatus] = useState<
+    "idle" | "sending" | "success" | "error"
+  >("idle");
+
+  async function submit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    setStatus("sending");
+
+    const form = event.currentTarget;
+    const data = new FormData(form);
+
+    data.set(
+      "request_type",
+      kind === "trial"
+        ? "15-Day Free Trial"
+        : "Contact Request"
+    );
+
+    data.set(
+      "_subject",
+      kind === "trial"
+        ? "New BSC Live Chat Free Trial Request"
+        : "New BSC Live Chat Contact Request"
+    );
+
+    try {
+      const response = await fetch(form.action, {
+        method: "POST",
+        body: data,
+        headers: {
+          Accept: "application/json",
+        },
+      });
+
+      if (!response.ok) {
+        throw new Error();
+      }
+
+      setStatus("success");
+      form.reset();
+    } catch {
+      setStatus("error");
+    }
+  }
+
+  if (status === "success") {
+    return (
+      <div className="form-success" role="status">
+        <span>✓</span>
+
+        <h2>Thank you for contacting us.</h2>
+
+        <p>
+          Your information has been sent to Business Solution Center.
+          We&apos;ll contact you about your BSC Live Chat{" "}
+          {kind === "trial" ? "free trial" : "inquiry"}.
+        </p>
+      </div>
+    );
+  }
+
+  return (
+    <form
+      className="form-card control-panel"
+      action="https://formspree.io/f/myeyjqyr"
+      method="POST"
+      onSubmit={submit}
+    >
+      <div className="field">
+        <label htmlFor={`${kind}-name`}>Full name</label>
+        <input
+          id={`${kind}-name`}
+          name="name"
+          required
+          maxLength={100}
+        />
+      </div>
+
+      <div className="field">
+        <label htmlFor={`${kind}-company`}>Company name</label>
+        <input
+          id={`${kind}-company`}
+          name="company"
+          required
+          maxLength={120}
+        />
+      </div>
+
+      <div className="field">
+        <label htmlFor={`${kind}-email`}>Business email</label>
+        <input
+          id={`${kind}-email`}
+          name="email"
+          type="email"
+          required
+          maxLength={160}
+        />
+      </div>
+
+      <div className="field">
+        <label htmlFor={`${kind}-phone`}>Phone number</label>
+        <input
+          id={`${kind}-phone`}
+          name="phone"
+          type="tel"
+          maxLength={50}
+        />
+      </div>
+
+      <div className="field full">
+        <label htmlFor={`${kind}-website`}>Website URL</label>
+        <input
+          id={`${kind}-website`}
+          name="website"
+          type="url"
+          placeholder="https://"
+          maxLength={300}
+        />
+      </div>
+
+      <div className="field full">
+        <label htmlFor={`${kind}-plan`}>
+          {kind === "trial"
+            ? "Preferred plan"
+            : "I’m interested in"}
+        </label>
+
+        <select
+          id={`${kind}-plan`}
+          name="plan"
+          defaultValue={defaultPlan}
+        >
+          <option>Self-Service Human + AI</option>
+          <option>BSC Human Chat Agents</option>
+          <option>Pay Per Qualified Lead</option>
+          <option>Pay Per Chat</option>
+          <option>BSC Referral Partner Program</option>
+          <option>BSC Reseller / Service Partner Program</option>
+          <option>Help me choose</option>
+        </select>
+      </div>
+
+      <div className="field full">
+        <label htmlFor={`${kind}-message`}>
+          {kind === "trial"
+            ? "What would you like BSC Live Chat to handle?"
+            : "How can we help?"}
+        </label>
+
+        <textarea
+          id={`${kind}-message`}
+          name="message"
+          required={kind === "contact"}
+          maxLength={3000}
+        />
+      </div>
+
+      <input
+        className="website-check"
+        name="website_check"
+        tabIndex={-1}
+        autoComplete="off"
+        aria-hidden="true"
+      />
+
+      <button
+        className="button"
+        type="submit"
+        disabled={status === "sending"}
+      >
+        {status === "sending"
+          ? "Sending…"
+          : kind === "trial"
+            ? "Request My Free Trial"
+            : "Send Message"}
+      </button>
+
+      {status === "error" && (
+        <p className="form-error" role="alert">
+          We couldn&apos;t send your information. Please try again or
+          email info@bsctelemarketing.com.
+        </p>
+      )}
+    </form>
+  );
 }
