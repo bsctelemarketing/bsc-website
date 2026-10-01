@@ -5,15 +5,19 @@ import { FormEvent, useState } from "react";
 type InquiryFormProps = {
   kind?: "trial" | "contact";
   defaultPlan?: string;
+  lang?: "en" | "da";
 };
 
 export function InquiryForm({
   kind = "trial",
   defaultPlan = "Self-Service Human + AI",
+  lang = "en",
 }: InquiryFormProps) {
   const [status, setStatus] = useState<
     "idle" | "sending" | "success" | "error"
   >("idle");
+
+  const isDanish = lang === "da";
 
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -61,12 +65,24 @@ export function InquiryForm({
       <div className="form-success" role="status">
         <span>✓</span>
 
-        <h2>Thank you for contacting us.</h2>
+        <h2>
+          {isDanish
+            ? "Tak, fordi du kontaktede os."
+            : "Thank you for contacting us."}
+        </h2>
 
         <p>
-          Your information has been sent to Business Solution Center.
-          We&apos;ll contact you about your BSC Live Chat{" "}
-          {kind === "trial" ? "free trial" : "inquiry"}.
+          {isDanish
+            ? kind === "trial"
+              ? "Dine oplysninger er blevet sendt til Business Solution Center. Vi kontakter dig om din gratis prøveperiode med BSC Live Chat."
+              : "Dine oplysninger er blevet sendt til Business Solution Center. Vi kontakter dig vedrørende din henvendelse."
+            : (
+              <>
+                Your information has been sent to Business Solution Center.
+                We&apos;ll contact you about your BSC Live Chat{" "}
+                {kind === "trial" ? "free trial" : "inquiry"}.
+              </>
+            )}
         </p>
       </div>
     );
@@ -80,7 +96,9 @@ export function InquiryForm({
       onSubmit={submit}
     >
       <div className="field">
-        <label htmlFor={`${kind}-name`}>Full name</label>
+        <label htmlFor={`${kind}-name`}>
+          {isDanish ? "Fulde navn" : "Full name"}
+        </label>
         <input
           id={`${kind}-name`}
           name="name"
@@ -90,7 +108,9 @@ export function InquiryForm({
       </div>
 
       <div className="field">
-        <label htmlFor={`${kind}-company`}>Company name</label>
+        <label htmlFor={`${kind}-company`}>
+          {isDanish ? "Virksomhedsnavn" : "Company name"}
+        </label>
         <input
           id={`${kind}-company`}
           name="company"
@@ -100,7 +120,9 @@ export function InquiryForm({
       </div>
 
       <div className="field">
-        <label htmlFor={`${kind}-email`}>Business email</label>
+        <label htmlFor={`${kind}-email`}>
+          {isDanish ? "Virksomhedens e-mail" : "Business email"}
+        </label>
         <input
           id={`${kind}-email`}
           name="email"
@@ -111,7 +133,9 @@ export function InquiryForm({
       </div>
 
       <div className="field">
-        <label htmlFor={`${kind}-phone`}>Phone number</label>
+        <label htmlFor={`${kind}-phone`}>
+          {isDanish ? "Telefonnummer" : "Phone number"}
+        </label>
         <input
           id={`${kind}-phone`}
           name="phone"
@@ -121,7 +145,9 @@ export function InquiryForm({
       </div>
 
       <div className="field full">
-        <label htmlFor={`${kind}-website`}>Website URL</label>
+        <label htmlFor={`${kind}-website`}>
+          {isDanish ? "Hjemmesideadresse" : "Website URL"}
+        </label>
         <input
           id={`${kind}-website`}
           name="website"
@@ -133,9 +159,13 @@ export function InquiryForm({
 
       <div className="field full">
         <label htmlFor={`${kind}-plan`}>
-          {kind === "trial"
-            ? "Preferred plan"
-            : "I’m interested in"}
+          {isDanish
+            ? kind === "trial"
+              ? "Foretrukken løsning"
+              : "Jeg er interesseret i"
+            : kind === "trial"
+              ? "Preferred plan"
+              : "I'm interested in"}
         </label>
 
         <select
@@ -143,21 +173,59 @@ export function InquiryForm({
           name="plan"
           defaultValue={defaultPlan}
         >
-          <option>Self-Service Human + AI</option>
-          <option>BSC Human Chat Agents</option>
-          <option>Pay Per Qualified Lead</option>
-          <option>Pay Per Chat</option>
-          <option>BSC Referral Partner Program</option>
-          <option>BSC Reseller / Service Partner Program</option>
-          <option>Help me choose</option>
+          <option value="Self-Service Human + AI">
+            {isDanish
+              ? "Selvbetjening med mennesker + AI"
+              : "Self-Service Human + AI"}
+          </option>
+
+          <option value="BSC Human Chat Agents">
+            {isDanish
+              ? "BSC's menneskelige chatagenter"
+              : "BSC Human Chat Agents"}
+          </option>
+
+          <option value="Pay Per Qualified Lead">
+            {isDanish
+              ? "Betaling pr. kvalificeret lead"
+              : "Pay Per Qualified Lead"}
+          </option>
+
+          <option value="Pay Per Chat">
+            {isDanish
+              ? "Betaling pr. chat"
+              : "Pay Per Chat"}
+          </option>
+
+          <option value="BSC Referral Partner Program">
+            {isDanish
+              ? "BSC-henvisningspartnerprogram"
+              : "BSC Referral Partner Program"}
+          </option>
+
+          <option value="BSC Reseller / Service Partner Program">
+            {isDanish
+              ? "BSC-forhandler-/servicepartnerprogram"
+              : "BSC Reseller / Service Partner Program"}
+          </option>
+
+          <option value="Help me choose">
+            {isDanish
+              ? "Hjælp mig med at vælge"
+              : "Help me choose"}
+          </option>
         </select>
       </div>
 
       <div className="field full">
         <label htmlFor={`${kind}-message`}>
-          {kind === "trial"
-            ? "What would you like BSC Live Chat to handle?"
-            : "How can we help?"}
+          {isDanish
+            ? kind === "trial"
+              ? "Hvad skal BSC Live Chat hjælpe med?"
+              : "Hvordan kan vi hjælpe?"
+            : kind === "trial"
+              ? "What would you like BSC Live Chat to handle?"
+              : "How can we help?"}
         </label>
 
         <textarea
@@ -182,16 +250,23 @@ export function InquiryForm({
         disabled={status === "sending"}
       >
         {status === "sending"
-          ? "Sending…"
+          ? isDanish
+            ? "Sender…"
+            : "Sending…"
           : kind === "trial"
-            ? "Request My Free Trial"
-            : "Send Message"}
+            ? isDanish
+              ? "Anmod om gratis prøveperiode"
+              : "Request My Free Trial"
+            : isDanish
+              ? "Send besked"
+              : "Send Message"}
       </button>
 
       {status === "error" && (
         <p className="form-error" role="alert">
-          We couldn&apos;t send your information. Please try again or
-          email info@bsctelemarketing.com.
+          {isDanish
+            ? "Vi kunne ikke sende dine oplysninger. Prøv igen, eller send en e-mail til info@bsctelemarketing.com."
+            : "We couldn't send your information. Please try again or email info@bsctelemarketing.com."}
         </p>
       )}
     </form>
