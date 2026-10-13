@@ -206,7 +206,7 @@ export default function DanishHome() {
         </div>
       </section>
 
-      <section className="section section-soft">
+      <section className="section section-soft"><div className="container split"><div><span className="eyebrow">Månedlig besøgsstatistik og analyse</span><h2>Få indsigt i dine besøgende. Opdag nye muligheder.</h2><p>Få overblik over besøgsaktiviteten på din hjemmeside med BSC Live Chat. Følg den månedlige besøgsaktivitet, se chatsamtaler, og få indsigt i potentielle kundehenvendelser direkte fra din kundeportal.</p><p>Brug den månedlige statistik til at forstå kundernes engagement og identificere nye forretningsmuligheder.</p><Link className="text-link" href="/da/free-trial">Start din gratis prøveperiode på 15 dage →</Link></div><div className="control-panel"><h3>Få overblik over aktiviteten på din hjemmeside</h3><CheckList items={["Følg den månedlige besøgsaktivitet","Se chatsamtaler med besøgende","Følg kundehenvendelser indsamlet via chat","Se statistik for udvalgte måneder","Få adgang til analyser i din kundeportal"]}/></div></div></section><section className="section section-soft">
         <div className="container split">
           <div>
             <span className="eyebrow">
