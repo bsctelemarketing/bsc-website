@@ -206,7 +206,29 @@ export default function DanishHome() {
         </div>
       </section>
 
-      <section className="section section-soft"><div className="container split"><div><span className="eyebrow">Månedlig besøgsstatistik og analyse</span><h2>Få indsigt i dine besøgende. Opdag nye muligheder.</h2><p>Få overblik over besøgsaktiviteten på din hjemmeside med BSC Live Chat. Følg den månedlige besøgsaktivitet, se chatsamtaler, og få indsigt i potentielle kundehenvendelser direkte fra din kundeportal.</p><p>Brug den månedlige statistik til at forstå kundernes engagement og identificere nye forretningsmuligheder.</p><Link className="text-link" href="/da/free-trial">Start din gratis prøveperiode på 15 dage →</Link></div><div className="control-panel"><h3>Få overblik over aktiviteten på din hjemmeside</h3><CheckList items={["Følg den månedlige besøgsaktivitet","Se chatsamtaler med besøgende","Følg kundehenvendelser indsamlet via chat","Se statistik for udvalgte måneder","Få adgang til analyser i din kundeportal"]}/></div></div></section><section className="section section-soft">
+      <section className="section section-soft">
+<div className="container">
+<span className="eyebrow">Månedlig besøgsstatistik og kundetilfredshed</span>
+<h2>Få indsigt i trafikken på din hjemmeside og forbedr kundeoplevelsen.</h2>
+<p>BSC Live Chat hjælper din virksomhed med at følge besøgsaktiviteten, analysere chatsamtaler og måle kundetilfredsheden fra én samlet kundeportal.</p>
+<div className="split">
+<div>
+<h3>Følg besøgende, selv når de ikke starter en chat</h3>
+<p>BSC Live Chat registrerer besøgsaktivitet på din hjemmeside, også når besøgende ikke starter en chatsamtale. Det giver dig indsigt i hjemmesidens trafik ud over antallet af personer, der kontakter din virksomhed.</p>
+<CheckList items={["Registrer besøgsaktivitet uden at kræve en chat","Se besøgsstatistik for udvalgte måneder","Følg chatsamtaler og registrerede kundeemner","Få indsigt i besøgendes engagement og udviklingen over tid","Se resultater direkte i din kundeportal"]}/>
+<h3>Kundetilfredshedsundersøgelser efter chatten</h3>
+<p>Når en agent afslutter en chatsamtale, kan den besøgende bedømme oplevelsen med 1 til 5 stjerner, angive om problemet blev løst og skrive en kommentar.</p>
+<CheckList items={["Indsaml feedback efter afsluttede chatsamtaler","Følg den gennemsnitlige kundebedømmelse","Se løsningsprocent og antal femstjernede bedømmelser","Læs kommentarer og se hvilken agent der håndterede samtalen","Brug kundernes feedback til at forbedre servicen"]}/>
+<Link className="text-link" href="/da/free-trial">Start din gratis prøveperiode på 15 dage →</Link>
+</div>
+<div className="control-panel">
+<h3>Se din BSC Client Analytics-kundeportal</h3>
+<img src="/images/bsc-client-analytics.png" alt="BSC Live Chat-kundeportal med månedlig besøgsstatistik, agentresultater og kundetilfredshedsundersøgelser" style={{width:"100%",height:"auto",borderRadius:"12px"}}/>
+<p>Få overblik over hjemmesidebesøg, chatsamtaler, kundeemner og kundetilfredshed på ét sted.</p>
+</div>
+</div>
+</div>
+</section><section className="section section-soft">
         <div className="container split">
           <div>
             <span className="eyebrow">
