@@ -221,11 +221,11 @@ export default function DanishHome() {
 <CheckList items={["Indsaml feedback efter afsluttede chatsamtaler","Følg den gennemsnitlige kundebedømmelse","Se løsningsprocent og antal femstjernede bedømmelser","Læs kommentarer og se hvilken agent der håndterede samtalen","Brug kundernes feedback til at forbedre servicen"]}/>
 <Link className="text-link" href="/da/free-trial">Start din gratis prøveperiode på 15 dage →</Link>
 </div>
-<div className="control-panel">
+</div>
+<div className="control-panel" style={{marginTop:"32px",padding:"24px"}}>
 <h3>Se din BSC Client Analytics-kundeportal</h3>
 <img src="/images/bsc-client-analytics.png" alt="BSC Live Chat-kundeportal med månedlig besøgsstatistik, agentresultater og kundetilfredshedsundersøgelser" style={{width:"100%",height:"auto",borderRadius:"12px"}}/>
 <p>Få overblik over hjemmesidebesøg, chatsamtaler, kundeemner og kundetilfredshed på ét sted.</p>
-</div>
 </div>
 </div>
 </section><section className="section section-soft">
