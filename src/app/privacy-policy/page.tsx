@@ -56,10 +56,10 @@ export default function PrivacyPolicy() {
 
             <h2>4. Website Contact Forms</h2>
             <p>
-              Our marketing website uses Formspree to process contact
-              requests and free-trial submissions. Information entered
-              into these forms is transmitted to Formspree for delivery
-              to Business Solution Center.
+              Information submitted through our contact and free-trial forms
+              is used to respond to inquiries, process trial requests, and
+              communicate with prospective customers. We may use third-party
+              service providers to securely process and deliver these submissions.
             </p>
 
             <h2>5. Live Chat and AI Assistance</h2>
@@ -149,3 +149,4 @@ export default function PrivacyPolicy() {
     </main>
   );
 }
+
