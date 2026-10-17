@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { PageHero } from "@/components/page-shell";
 
 export const metadata: Metadata = {
@@ -184,14 +184,7 @@ export default function TermsOfService() {
               we will provide appropriate notice.
             </p>
 
-            <h2>15. Governing Law</h2>
-            <p>
-              These Terms are governed by the applicable laws
-              of Ontario and Canada, subject to any mandatory
-              legal protections that apply.
-            </p>
-
-            <h2>16. Contact Information</h2>
+            <h2>15. Contact Information</h2>
             <p>
               Business Solution Center<br />
               Ontario, Canada<br />
@@ -205,3 +198,4 @@ export default function TermsOfService() {
     </main>
   );
 }
+
