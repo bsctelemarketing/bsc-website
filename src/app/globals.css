@@ -50,3 +50,55 @@
     display:block;
   }
 }
+
+/* BSC Appointment Booking Screenshots */
+.appointment-screenshot {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
+.appointment-image-panel {
+  width: 100%;
+  max-width: 1050px;
+  margin: 32px auto 0;
+  padding: 24px;
+}
+
+.appointment-image-panel img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
+@media (max-width: 600px) {
+  .appointment-image-panel {
+    padding: 12px;
+  }
+}
+/* Larger appointment booking screenshots */
+@media (min-width: 901px) {
+  .split:has(img[src="/images/appointments/Appointment1.png"]) {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .split:has(img[src="/images/appointments/Appointment1.png"])
+  > .control-panel {
+    width: 100%;
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+img[src="/images/appointments/Appointment1.png"] {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+

@@ -206,7 +206,59 @@ export default function DanishHome() {
         </div>
       </section>
 
-      <section className="section section-soft">
+            <section className="section">
+        <div className="container">
+          <div className="section-heading">
+            <span className="eyebrow">AI-tidsbestilling</span>
+            <h2>Gør besøgende på din hjemmeside til bookede kunder.</h2>
+            <p>Lad kunderne bestille tid direkte på din hjemmeside – døgnet rundt. De kan bestille gennem en samtale med AI-assistenten eller bruge en enkel bookingformular.</p>
+          </div>
+
+          <div className="split">
+            <div>
+              <h3>Gør det nemt for kunderne at bestille tid</h3>
+              <p>BSC kontrollerer ledige tider ud fra virksomhedens åbningstider og eksisterende bookinger. Kunderne kan vælge et passende tidspunkt og indtaste deres kontaktoplysninger.</p>
+              <CheckList items={[
+                "Tidsbestilling via AI-assistent eller bookingformular",
+                "Oversigt over ledige datoer og tidspunkter",
+                "Modtag bookingforespørgsler døgnet rundt",
+                "Brug mindre tid på telefonopkald og e-mails",
+                "Vælg automatisk bekræftelse eller manuel godkendelse"
+              ]}/>
+              <Link className="text-link" href="/da/services">Læs mere om tidsbestilling →</Link>
+            </div>
+
+            <div className="control-panel">
+              <h3>Enkel tidsbestilling for dine kunder</h3>
+              <img
+                src="/images/appointments/Appointment1.png"
+                alt="BSC-bookingformular med ledige datoer og tidspunkter"
+                style={{width:"100%",height:"auto",borderRadius:"12px"}}
+              />
+            </div>
+          </div>
+
+          <div className="control-panel" style={{marginTop:"32px",padding:"24px"}}>
+            <h3>Administrer aftaler i din kundeportal</h3>
+            <p>Se bookingforespørgsler, godkend eller afvis aftaler efter behov, og få overblik over kommende aftaler på ét sted.</p>
+            <img
+              src="/images/appointments/Appointment2.png"
+              alt="BSC-kundeportal til administration af aftaler"
+              style={{width:"100%",height:"auto",borderRadius:"12px"}}
+            />
+          </div>
+
+          <div style={{marginTop:"32px"}}>
+            <h3>Ideelt til virksomheder, der arbejder med tidsbestilling</h3>
+            <p>VVS- og ventilationsfirmaer, tandklinikker, skønhedssaloner, rengøringsfirmaer, ejendomsmæglere, autoværksteder og konsulenter kan gøre det lettere for kunderne at bestille tid.</p>
+            <div className="button-row">
+              <Link className="button" href="/da/free-trial">Prøv gratis i 15 dage</Link>
+              <Link className="text-link" href="/da/services">Læs mere →</Link>
+            </div>
+          </div>
+        </div>
+      </section>
+<section className="section section-soft">
 <div className="container">
 <span className="eyebrow">Månedlig besøgsstatistik og kundetilfredshed</span>
 <h2>Få indsigt i trafikken på din hjemmeside og forbedr kundeoplevelsen.</h2>
@@ -340,6 +392,47 @@ export default function DanishHome() {
         </div>
       </section>
 
+      <section className="section section-soft">
+  <div className="container">
+    <div className="section-heading">
+      <span className="eyebrow">Sådan fungerer AI-tidsbestilling</span>
+      <h2>Fra en chatbesked til en booket aftale</h2>
+      <p>Lad dine kunder bestille tid direkte gennem din AI-chatassistent – døgnet rundt, også når virksomheden holder lukket.</p>
+    </div>
+
+    <div className="steps">
+      <article>
+        <span>1</span>
+        <h3>Kunden ønsker at bestille tid</h3>
+        <p>En besøgende skriver til AI-assistenten for at bestille eksempelvis en reparation, en konsultation eller et servicebesøg.</p>
+      </article>
+
+      <article>
+        <span>2</span>
+        <h3>AI kontrollerer ledige tider</h3>
+        <p>Systemet kontrollerer virksomhedens åbningstider, aftalernes varighed og eksisterende bookinger for at finde ledige tider.</p>
+      </article>
+
+      <article>
+        <span>3</span>
+        <h3>AI indsamler oplysninger</h3>
+        <p>Assistenten hjælper kunden med at vælge en ledig tid og indsamler de nødvendige kontakt- og bookingoplysninger.</p>
+      </article>
+    </div>
+
+    <div className="control-panel" style={{marginTop:"32px"}}>
+      <h3>4. Aftalen oprettes i kundeportalen</h3>
+      <p>Aftalen vises i BSC-kundeportalen, hvor den enten bekræftes automatisk eller afventer virksomhedens godkendelse, afhængigt af bookingindstillingerne.</p>
+      <p><strong>Booking uden AI-chat:</strong> Kunden kan også bruge bookingformularen til at vælge en ledig tid.</p>
+    </div>
+
+    <div className="button-row" style={{marginTop:"32px"}}>
+      <Link className="button" href="/da/free-trial">
+        Prøv gratis i 15 dage
+      </Link>
+    </div>
+  </div>
+</section>
       <Cta />
     </main>
   );
