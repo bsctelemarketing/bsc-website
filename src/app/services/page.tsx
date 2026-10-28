@@ -31,6 +31,47 @@ export default function Services(){return <main><PageHero eyebrow="Services" tit
         alt="BSC customer appointment booking form"
       />
     </div>
+<section className="section section-soft">
+  <div className="container">
+    <div className="section-heading">
+      <span className="eyebrow">How AI Appointment Booking Works</span>
+      <h2>From a website conversation to a booked appointment.</h2>
+      <p>Your customers can schedule appointments directly through your AI chat assistant, without waiting for someone to answer the phone.</p>
+    </div>
+
+    <div className="steps">
+      <article>
+        <span>1</span>
+        <h3>Customer requests an appointment</h3>
+        <p>A visitor asks the AI assistant to schedule a service, such as an HVAC repair, consultation, or salon appointment.</p>
+      </article>
+
+      <article>
+        <span>2</span>
+        <h3>AI checks available times</h3>
+        <p>BSC checks your configured business hours, appointment duration, and existing bookings to find available appointment slots.</p>
+      </article>
+
+      <article>
+        <span>3</span>
+        <h3>AI collects booking details</h3>
+        <p>The assistant helps the customer choose an available time and provide the contact and appointment information needed.</p>
+      </article>
+    </div>
+
+    <div className="control-panel" style={{marginTop:"32px"}}>
+      <h3>4. The appointment appears in your Client Portal</h3>
+      <p>Depending on your booking settings, the appointment is automatically confirmed or submitted for your approval. You can review and manage appointments directly from your Client Portal.</p>
+      <p><strong>Prefer a booking form?</strong> Customers can also click Book Appointment and select an available time without starting an AI conversation.</p>
+    </div>
+
+    <div className="button-row" style={{marginTop:"32px"}}>
+      <Link className="button" href="/free-trial">
+        Start 15-Day Free Trial
+      </Link>
+    </div>
+  </div>
+</section>
 
     <div className="control-panel" style={{marginTop:"32px",padding:"24px"}}>
       <h3>Manage every appointment in your Client Portal</h3>
@@ -93,47 +134,6 @@ export default function Services(){return <main><PageHero eyebrow="Services" tit
         src="/images/appointments/Appointment3.png"
         alt="BSC Appointment Settings showing business hours, appointment duration, approval mode, and time zone"
       />
-    </div>
-
-    <div className="button-row" style={{marginTop:"32px"}}>
-      <Link className="button" href="/free-trial">
-        Start 15-Day Free Trial
-      </Link>
-    </div>
-  </div>
-</section>
-<section className="section section-soft">
-  <div className="container">
-    <div className="section-heading">
-      <span className="eyebrow">How AI Appointment Booking Works</span>
-      <h2>From a website conversation to a booked appointment.</h2>
-      <p>Your customers can schedule appointments directly through your AI chat assistant, without waiting for someone to answer the phone.</p>
-    </div>
-
-    <div className="steps">
-      <article>
-        <span>1</span>
-        <h3>Customer requests an appointment</h3>
-        <p>A visitor asks the AI assistant to schedule a service, such as an HVAC repair, consultation, or salon appointment.</p>
-      </article>
-
-      <article>
-        <span>2</span>
-        <h3>AI checks available times</h3>
-        <p>BSC checks your configured business hours, appointment duration, and existing bookings to find available appointment slots.</p>
-      </article>
-
-      <article>
-        <span>3</span>
-        <h3>AI collects booking details</h3>
-        <p>The assistant helps the customer choose an available time and provide the contact and appointment information needed.</p>
-      </article>
-    </div>
-
-    <div className="control-panel" style={{marginTop:"32px"}}>
-      <h3>4. The appointment appears in your Client Portal</h3>
-      <p>Depending on your booking settings, the appointment is automatically confirmed or submitted for your approval. You can review and manage appointments directly from your Client Portal.</p>
-      <p><strong>Prefer a booking form?</strong> Customers can also click Book Appointment and select an available time without starting an AI conversation.</p>
     </div>
 
     <div className="button-row" style={{marginTop:"32px"}}>

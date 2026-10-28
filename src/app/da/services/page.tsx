@@ -94,33 +94,6 @@ export default function Services() {
             </div>
           </div>
 
-          <div className="control-panel" style={{marginTop:"32px",padding:"24px"}}>
-            <h3>Administrer aftaler fra jeres kundeportal</h3>
-            <p>Se bookingforespørgsler, godkend eller afvis aftaler efter behov, og få overblik over kommende aftaler på ét sted.</p>
-            <img
-              src="/images/appointments/Appointment2.png"
-              alt="BSC-kundeportal med oversigt over aftaler"
-              style={{width:"100%",height:"auto",borderRadius:"12px"}}
-            />
-          </div>
-
-          <div style={{marginTop:"32px"}}>
-            <h3>Ideelt til virksomheder med tidsbestilling</h3>
-            <p>Velegnet til VVS- og ventilationsfirmaer, tandklinikker, skønhedssaloner, rengøringsfirmaer, ejendomsmæglere, autoværksteder og konsulenter.</p>
-            <CheckList items={[
-              "Modtag bookingforespørgsler uden for åbningstiden",
-              "Brug mindre tid på manuel planlægning",
-              "Giv kunderne fleksible bookingmuligheder",
-              "Tilpas åbningstider og bookingindstillinger",
-              "Saml alle bookingforespørgsler ét sted"
-            ]}/>
-            <div className="button-row">
-              <Link className="button" href="/da/free-trial">Prøv gratis i 15 dage</Link>
-              <Link className="text-link" href="/da/how-it-works">Se hvordan det fungerer →</Link>
-            </div>
-          </div>
-        </div>
-      </section>
       <section className="section section-soft">
   <div className="container">
     <div className="section-heading">
@@ -156,6 +129,33 @@ export default function Services() {
     </div>
   </div>
 </section>
+          <div className="control-panel" style={{marginTop:"32px",padding:"24px"}}>
+            <h3>Administrer aftaler fra jeres kundeportal</h3>
+            <p>Se bookingforespørgsler, godkend eller afvis aftaler efter behov, og få overblik over kommende aftaler på ét sted.</p>
+            <img
+              src="/images/appointments/Appointment2.png"
+              alt="BSC-kundeportal med oversigt over aftaler"
+              style={{width:"100%",height:"auto",borderRadius:"12px"}}
+            />
+          </div>
+
+          <div style={{marginTop:"32px"}}>
+            <h3>Ideelt til virksomheder med tidsbestilling</h3>
+            <p>Velegnet til VVS- og ventilationsfirmaer, tandklinikker, skønhedssaloner, rengøringsfirmaer, ejendomsmæglere, autoværksteder og konsulenter.</p>
+            <CheckList items={[
+              "Modtag bookingforespørgsler uden for åbningstiden",
+              "Brug mindre tid på manuel planlægning",
+              "Giv kunderne fleksible bookingmuligheder",
+              "Tilpas åbningstider og bookingindstillinger",
+              "Saml alle bookingforespørgsler ét sted"
+            ]}/>
+            <div className="button-row">
+              <Link className="button" href="/da/free-trial">Prøv gratis i 15 dage</Link>
+              <Link className="text-link" href="/da/how-it-works">Se hvordan det fungerer →</Link>
+            </div>
+          </div>
+        </div>
+      </section>
 
 <section className="section">
   <div className="container">
