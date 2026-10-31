@@ -32,6 +32,19 @@ const plans = [
     ],
   },
   {
+    name: "Betaling pr. bekræftet aftale",
+    price: "Kontakt os",
+    unit: "intet månedligt abonnement",
+    text: "Gør besøgende på hjemmesiden til bookede aftaler med AI og BSC's chatmedarbejdere. Betal kun for kvalificerede, godkendte aftaler uden et månedligt abonnement.",
+    items: [
+      "AI-drevet tidsbestilling døgnet rundt",
+      "BSC's chatmedarbejdere booker aftaler for besøgende",
+      "Indsamling af kundeoplysninger og leads",
+      "Overblik over aftaler og gennemsigtig fakturering",
+      "Intet månedligt abonnement",
+    ],
+  },
+  {
     name: "Betaling pr. chat",
     price: "Kontakt os",
     unit: "brugsbaseret pris",

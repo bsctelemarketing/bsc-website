@@ -191,6 +191,11 @@ export function InquiryForm({
               : "Pay Per Qualified Lead"}
           </option>
 
+          <option value="Pay Per Confirmed Appointment">
+            {isDanish
+              ? "Betaling pr. bekræftet aftale"
+              : "Pay Per Confirmed Appointment"}
+          </option>
           <option value="Pay Per Chat">
             {isDanish
               ? "Betaling pr. chat"
