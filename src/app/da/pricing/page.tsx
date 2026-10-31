@@ -31,8 +31,6 @@ const plans = [
       "Betal kun for kvalificerede leads",
       "Intet månedligt abonnement",
       "Aftalte kvalifikationskriterier",
-      "AI-drevet tidsbestilling døgnet rundt",
-      "Tidsbestilling via BSCs chatmedarbejdere",
       "Menneskelig chatdækning",
       "15-dages gratis prøveperiode",
     ],
