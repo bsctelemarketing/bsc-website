@@ -29,6 +29,7 @@ const plans = [
     text: "Til virksomheder, der ønsker, at BSC-agenter omdanner samtaler til kvalificerede forretningsmuligheder.",
     items: [
       "Betal kun for kvalificerede leads",
+      "Intet månedligt abonnement",
       "Aftalte kvalifikationskriterier",
       "AI-drevet tidsbestilling døgnet rundt",
       "Tidsbestilling via BSCs chatmedarbejdere",
