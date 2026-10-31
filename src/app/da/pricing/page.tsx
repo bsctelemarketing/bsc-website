@@ -15,6 +15,9 @@ const plans = [
     items: [
       "Kundeadministrator- eller agentkonto",
       "AI-assisterede chatfunktioner",
+      "AI-drevet tidsbestilling døgnet rundt",
+      "Tidsbestilling via virksomhedens egne chatmedarbejdere",
+      "Administration af aftaler og tidsbestilling",
       "Adgang til samtaler og leads",
       "15-dages gratis prøveperiode",
     ],
@@ -27,6 +30,8 @@ const plans = [
     items: [
       "Betal kun for kvalificerede leads",
       "Aftalte kvalifikationskriterier",
+      "AI-drevet tidsbestilling døgnet rundt",
+      "Tidsbestilling via BSCs chatmedarbejdere",
       "Menneskelig chatdækning",
       "15-dages gratis prøveperiode",
     ],
@@ -51,6 +56,8 @@ const plans = [
     text: "Til virksomheder, der foretrækker en enkel pris baseret på håndterede livechat-samtaler.",
     items: [
       "Samtaler håndteret af mennesker",
+      "AI-drevet tidsbestilling",
+      "Tidsbestilling via BSCs chatmedarbejdere",
       "Fleksibel dækning",
       "Tydelig aktivitetsoversigt",
       "15-dages gratis prøveperiode",
