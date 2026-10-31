@@ -57,6 +57,7 @@ const plans = [
     text: "Til virksomheder, der foretrækker en enkel pris baseret på håndterede livechat-samtaler.",
     items: [
       "Samtaler håndteret af mennesker",
+      "Intet månedligt abonnement",
       "AI-drevet tidsbestilling",
       "Tidsbestilling via BSCs chatmedarbejdere",
       "Fleksibel dækning",
