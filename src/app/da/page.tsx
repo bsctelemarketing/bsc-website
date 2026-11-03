@@ -17,6 +17,11 @@ const services = [
     "Kvalificerede leads",
     "Indsaml navne, kontaktoplysninger og reel interesse for jeres tjenester, så jeres team trygt kan følge op.",
   ],
+  [
+    "04",
+    "AI-drevet tidsbestilling",
+    "Lad kunder bestille tid direkte gennem AI-chatten eller en brugervenlig bookingformular – døgnet rundt.",
+  ],
 ];
 
 export default function DanishHome() {
@@ -140,7 +145,7 @@ export default function DanishHome() {
             </p>
           </div>
 
-          <div className="cards three">
+          <div className="cards four">
             {services.map(([n, t, d]) => (
               <article className="service-card" key={t}>
                 <span className="card-number">{n}</span>

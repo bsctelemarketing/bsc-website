@@ -37,23 +37,78 @@ export default function How(){return <main><PageHero eyebrow="How it works" titl
 
     <div className="control-panel">
       <h3>WordPress</h3>
-      <p>Open your WordPress dashboard. Install a trusted header/footer code plugin such as WPCode. Paste your BSC widget snippet into its Footer scripts area, then save and activate it.</p>
+      <ol>
+        <li>Sign in to your WordPress administration dashboard.</li>
+        <li>Install and activate a trusted header and footer code plugin, such as WPCode.</li>
+        <li>Open the plugin settings and locate the Footer Scripts section.</li>
+        <li>Paste your BSC Live Chat installation code, save your changes, and visit your website to verify that the chat widget appears.</li>
+      </ol>
 
       <h3>Shopify</h3>
-      <p>Go to Online Store → Themes → Edit code. Open layout/theme.liquid and paste your BSC widget snippet immediately before the closing body tag. Save your changes.</p>
+      <ol>
+        <li>Sign in to Shopify and navigate to Online Store → Themes.</li>
+        <li>Open the theme menu and select Edit code.</li>
+        <li>Open the layout/theme.liquid file.</li>
+        <li>Paste your BSC Live Chat installation code immediately before the closing body tag.</li>
+        <li>Save your changes and verify that the chat widget appears on your storefront.</li>
+      </ol>
 
       <h3>Wix</h3>
-      <p>Go to Settings → Custom Code → Add Custom Code. Paste the snippet, select all pages, choose Body – end, and apply your changes.</p>
+      <ol>
+        <li>Open your Wix dashboard and navigate to Settings → Custom Code.</li>
+        <li>Select Add Custom Code and paste your BSC Live Chat installation code.</li>
+        <li>Choose All Pages and set the placement to Body – end.</li>
+        <li>Apply your changes and check your published website.</li>
+      </ol>
 
       <h3>Squarespace</h3>
-      <p>Open the Code Injection settings and paste your BSC widget snippet into the Footer field. Save your changes. Availability depends on your Squarespace plan.</p>
+      <ol>
+        <li>Sign in to Squarespace and open your website settings.</li>
+        <li>Locate Code Injection and open the Footer section.</li>
+        <li>Paste your BSC Live Chat installation code and save your changes.</li>
+        <li>Visit your published website to verify the widget. Code Injection availability depends on your Squarespace plan.</li>
+      </ol>
 
       <h3>Custom HTML Websites</h3>
-      <p>Open your website's HTML template. Paste the BSC widget snippet immediately before the closing body tag, then save and publish your website.</p>
+      <ol>
+        <li>Open the HTML template used by your website.</li>
+        <li>Locate the closing body tag.</li>
+        <li>Paste your BSC Live Chat installation code immediately before that tag.</li>
+        <li>Save and publish your changes, then verify that the chat widget appears.</li>
+      </ol>
     </div>
   </div>
 </section>
 
+<section className="section section-soft">
+  <div className="container">
+    <div className="section-heading">
+      <span className="eyebrow">Mobile Access — Work From Anywhere</span>
+      <h2>Manage customer conversations from your smartphone.</h2>
+      <p>BSC Live Chat is accessible through a mobile web browser, allowing clients and chat agents to stay connected while away from their computers.</p>
+    </div>
+
+    <div className="split">
+      <div>
+        <h3>How to access BSC Live Chat on mobile</h3>
+        <ol>
+          <li>Open Chrome on Android or Safari on iPhone.</li>
+          <li>Visit https://live.bsctelemarketing.com.</li>
+          <li>Sign in using your BSC account credentials.</li>
+          <li>Open your dashboard and navigate to Live Chats.</li>
+          <li>View customer conversations and respond directly from your smartphone.</li>
+        </ol>
+      </div>
+
+      <div className="control-panel">
+        <h3>Add BSC Live Chat to your home screen</h3>
+        <p><strong>Android:</strong> Open the website in Chrome, select the browser menu, and choose Add to Home screen or Install app if available.</p>
+        <p><strong>iPhone:</strong> Open the website in Safari, tap Share, and select Add to Home Screen.</p>
+        <p>BSC Live Chat is available as an installable Progressive Web App (PWA). Add it to your smartphone home screen for quick, app-like access without downloading it from an app store.</p>
+      </div>
+    </div>
+  </div>
+</section>
 <section className="section">
   <div className="container">
     <div className="section-heading">

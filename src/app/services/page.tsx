@@ -143,4 +143,28 @@ export default function Services(){return <main><PageHero eyebrow="Services" tit
     </div>
   </div>
 </section>
+
+<section className="section section-soft">
+<div className="container">
+<span className="eyebrow">Monthly Visitor Tracking &amp; Customer Satisfaction</span>
+<h2>Understand your website traffic. Improve every customer conversation.</h2>
+<p>BSC Live Chat helps you understand your website visitors, monitor customer engagement, and measure customer satisfaction through one convenient analytics dashboard.</p>
+<div className="split">
+<div>
+<h3>Track visitors, even when they do not start a chat</h3>
+<p>BSC Live Chat records website visitor activity even when visitors browse your website without initiating a live chat conversation. This gives your business valuable insights into website traffic beyond the number of people who contact your team.</p>
+<CheckList items={["Track monthly visitor activity without requiring a chat","Review website traffic for selected months","Monitor live chat conversations and captured leads","Understand visitor engagement and identify trends","Access performance insights from your client dashboard"]}/>
+<h3>Post-Chat Customer Satisfaction Surveys</h3>
+<p>After an agent completes a live chat conversation, visitors can rate their experience from 1 to 5 stars, indicate whether their issue was resolved, and leave a written comment.</p>
+<CheckList items={["Collect customer feedback after completed chats","Monitor average satisfaction ratings","Review resolution rates and five-star surveys","Read visitor comments and identify the handling agent","Improve customer service using real feedback"]}/>
+<Link className="text-link" href="/free-trial">Start your 15-day free trial →</Link>
+</div>
+</div>
+<div className="control-panel" style={{marginTop:"32px",padding:"24px"}}>
+<h3>Explore your Client Analytics Dashboard</h3>
+<img src="/images/bsc-client-analytics.png" alt="BSC Live Chat Client Analytics dashboard showing monthly visitors, agent performance, and customer satisfaction surveys" style={{width:"100%",height:"auto",borderRadius:"12px"}}/>
+<p>Monitor website traffic, live chat performance, leads, and customer satisfaction in one place.</p>
+</div>
+</div>
+</section>
 <Cta/></main>}

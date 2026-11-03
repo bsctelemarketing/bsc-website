@@ -87,24 +87,79 @@ export default function How() {
 
           <div className="control-panel">
             <h3>WordPress</h3>
-            <p>Åbn WordPress-kontrolpanelet. Installer et pålideligt plugin til scripts i sidehoved og sidefod, eksempelvis WPCode. Indsæt BSC-widgetkoden i feltet Footer Scripts, og gem ændringerne.</p>
+      <ol>
+        <li>Log ind på dit WordPress-kontrolpanel.</li>
+        <li>Installer og aktivér et pålideligt plugin til kode i sidehoved og sidefod, eksempelvis WPCode.</li>
+        <li>Åbn pluginets indstillinger, og find feltet Footer Scripts.</li>
+        <li>Indsæt installationskoden til BSC Live Chat, gem ændringerne, og kontrollér, at chatwidgetten vises på hjemmesiden.</li>
+      </ol>
 
-            <h3>Shopify</h3>
-            <p>Gå til Online Store → Themes → Edit code. Åbn filen layout/theme.liquid, og indsæt BSC-widgetkoden lige før det afsluttende body-tag. Gem ændringerne.</p>
+      <h3>Shopify</h3>
+      <ol>
+        <li>Log ind på Shopify, og gå til Online Store → Themes.</li>
+        <li>Åbn menuen for dit tema, og vælg Edit code.</li>
+        <li>Åbn filen layout/theme.liquid.</li>
+        <li>Indsæt installationskoden til BSC Live Chat umiddelbart før det afsluttende body-tag.</li>
+        <li>Gem ændringerne, og kontrollér, at chatwidgetten vises i webshoppen.</li>
+      </ol>
 
-            <h3>Wix</h3>
-            <p>Gå til Settings → Custom Code → Add Custom Code. Indsæt widgetkoden, vælg alle sider og placeringen Body – end. Gem og anvend ændringerne.</p>
+      <h3>Wix</h3>
+      <ol>
+        <li>Åbn dit Wix-kontrolpanel, og gå til Settings → Custom Code.</li>
+        <li>Vælg Add Custom Code, og indsæt installationskoden til BSC Live Chat.</li>
+        <li>Vælg All Pages, og angiv placeringen Body – end.</li>
+        <li>Gem ændringerne, og kontrollér den offentliggjorte hjemmeside.</li>
+      </ol>
 
-            <h3>Squarespace</h3>
-            <p>Åbn indstillingerne for Code Injection, og indsæt BSC-widgetkoden i feltet Footer. Gem ændringerne. Funktionen afhænger af jeres Squarespace-abonnement.</p>
+      <h3>Squarespace</h3>
+      <ol>
+        <li>Log ind på Squarespace, og åbn indstillingerne for din hjemmeside.</li>
+        <li>Find Code Injection, og åbn feltet Footer.</li>
+        <li>Indsæt installationskoden til BSC Live Chat, og gem ændringerne.</li>
+        <li>Kontrollér, at chatwidgetten vises på hjemmesiden. Adgang til Code Injection afhænger af dit Squarespace-abonnement.</li>
+      </ol>
 
-            <h3>Hjemmesider med HTML</h3>
-            <p>Åbn hjemmesidens HTML-skabelon. Indsæt BSC-widgetkoden lige før det afsluttende body-tag, og gem og udgiv hjemmesiden.</p>
-          </div>
+      <h3>Hjemmesider med HTML</h3>
+      <ol>
+        <li>Åbn HTML-skabelonen til din hjemmeside.</li>
+        <li>Find det afsluttende body-tag.</li>
+        <li>Indsæt installationskoden til BSC Live Chat umiddelbart før dette tag.</li>
+        <li>Gem og offentliggør ændringerne, og kontrollér, at chatwidgetten vises korrekt.</li>
+      </ol>
+    </div>
         </div>
       </section>
 
-      <section className="section">
+      <section className="section section-soft">
+  <div className="container">
+    <div className="section-heading">
+      <span className="eyebrow">Mobiladgang – BSC Live Chat PWA</span>
+      <h2>Installer BSC Live Chat på din smartphone</h2>
+      <p>BSC Live Chat er tilgængelig som en Progressive Web App (PWA), så kunder og chatagenter kan åbne platformen direkte fra telefonens startskærm.</p>
+    </div>
+
+    <div className="split">
+      <div>
+        <h3>Sådan får du adgang fra din mobil</h3>
+        <ol>
+          <li>Åbn Chrome på Android eller Safari på iPhone.</li>
+          <li>Gå til https://live.bsctelemarketing.com.</li>
+          <li>Log ind med dine BSC-kontooplysninger.</li>
+          <li>Åbn dit kontrolpanel, og gå til Live Chats.</li>
+          <li>Læs og besvar kundernes beskeder direkte fra din smartphone.</li>
+        </ol>
+      </div>
+
+      <div className="control-panel">
+        <h3>Sådan installerer du BSC Live Chat</h3>
+        <p><strong>Android:</strong> Åbn hjemmesiden i Chrome, tryk på browsermenuen, og vælg Installer app eller Føj til startskærm.</p>
+        <p><strong>iPhone:</strong> Åbn hjemmesiden i Safari, tryk på Del, og vælg Føj til hjemmeskærm.</p>
+        <p>BSC Live Chat kan derefter åbnes fra telefonens startskærm med en app-lignende oplevelse uden installation fra en appbutik.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section className="section">
         <div className="container">
           <div className="section-heading">
             <span className="eyebrow">Sikkerhed og databeskyttelse</span>
