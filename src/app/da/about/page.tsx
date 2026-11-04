@@ -11,7 +11,7 @@ export default function About() {
       <PageHero
         eyebrow="Om Business Solution Center"
         title="Bedre kundesamtaler med mennesker i centrum."
-        text="BSC Live Chat er en tjeneste fra Business Solution Center, en canadisk registreret virksomhed med fokus på praktiske løsninger til kundekommunikation."
+        text="BSC Live Chat er en tjeneste fra Business Solution Center, en teknologivirksomhed med speciale i AI-drevet kundeengagement og livechatløsninger."
       />
 
       <section className="section">
