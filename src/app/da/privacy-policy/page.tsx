@@ -3,7 +3,7 @@ import { PageHero } from "@/components/page-shell";
 
 export const metadata: Metadata = {
   title: "Privatlivspolitik",
-  description: "LÃ¦s, hvordan Business Solution Center indsamler, anvender og beskytter oplysninger gennem BSC Live Chat.",
+  description: "Læs, hvordan Business Solution Center indsamler, anvender og beskytter oplysninger gennem BSC Live Chat.",
 };
 
 export default function DanishPrivacyPolicy() {
@@ -12,7 +12,7 @@ export default function DanishPrivacyPolicy() {
       <PageHero
         eyebrow="Juridiske oplysninger"
         title="Privatlivspolitik"
-        text="SÃ¥dan behandler Business Solution Center personoplysninger via vores hjemmeside og BSC Live Chat-tjenester."
+        text="Sådan behandler Business Solution Center personoplysninger via vores hjemmeside og BSC Live Chat-tjenester."
       />
 
       <section className="section">
@@ -25,64 +25,64 @@ export default function DanishPrivacyPolicy() {
               Business Solution Center ("BSC", "vi", "os" eller "vores")
               driver BSC Live Chat-tjenesten og hjemmesiden bsctelemarketing.com.
               Denne privatlivspolitik forklarer, hvordan vi indsamler,
-              anvender, videregiver og opbevarer oplysninger, nÃ¥r personer
-              besÃ¸ger vores hjemmeside, kontakter os eller bruger vores tjenester.
+              anvender, videregiver og opbevarer oplysninger, når personer
+              besøger vores hjemmeside, kontakter os eller bruger vores tjenester.
             </p>
 
             <h2>2. Oplysninger, vi indsamler</h2>
-            <p>AfhÃ¦ngigt af din interaktion med BSC kan vi indsamle:</p>
+            <p>Afhængigt af din interaktion med BSC kan vi indsamle:</p>
             <ul>
               <li>Navne, virksomhedsnavne, e-mailadresser og telefonnumre.</li>
-              <li>Hjemmesideadresser, tjenesteprÃ¦ferencer og beskeder i forbindelse med forespÃ¸rgsler.</li>
+              <li>Hjemmesideadresser, tjenestepræferencer og beskeder i forbindelse med forespørgsler.</li>
               <li>Chatbeskeder og kontaktoplysninger, der frivilligt gives under samtaler.</li>
-              <li>Oplysninger om hjemmesidebesÃ¸g og mÃ¥nedlig besÃ¸gsaktivitet.</li>
-              <li>ChatbedÃ¸mmelser, feedback om problemlÃ¸sning og kommentarer fra spÃ¸rgeskemaer.</li>
+              <li>Oplysninger om hjemmesidebesøg og månedlig besøgsaktivitet.</li>
+              <li>Chatbedømmelser, feedback om problemløsning og kommentarer fra spørgeskemaer.</li>
               <li>Kontooplysninger for kunder, agenter og partnere.</li>
               <li>Oplysninger om abonnementer og fakturering.</li>
             </ul>
 
-            <h2>3. SÃ¥dan anvender vi oplysninger</h2>
+            <h2>3. Sådan anvender vi oplysninger</h2>
             <p>Vi anvender indsamlede oplysninger til at:</p>
             <ul>
-              <li>Besvare henvendelser og anmodninger om gratis prÃ¸veperioder.</li>
+              <li>Besvare henvendelser og anmodninger om gratis prøveperioder.</li>
               <li>Levere livechat og kundesupport.</li>
-              <li>HjÃ¦lpe virksomheder med at besvare henvendelser fra deres hjemmesidebesÃ¸gende.</li>
+              <li>Hjælpe virksomheder med at besvare henvendelser fra deres hjemmesidebesøgende.</li>
               <li>Generere AI-assisterede chatforslag og svar.</li>
-              <li>Levere besÃ¸gsanalyser og rapporter om tjenestens resultater.</li>
+              <li>Levere besøgsanalyser og rapporter om tjenestens resultater.</li>
               <li>Administrere konti, abonnementer og fakturering.</li>
               <li>Vedligeholde, fejlfinde og forbedre vores tjenester.</li>
-              <li>Overholde gÃ¦ldende juridiske forpligtelser.</li>
+              <li>Overholde gældende juridiske forpligtelser.</li>
             </ul>
 
-            <h2>4. Kontaktformularer pÃ¥ hjemmesiden</h2>
+            <h2>4. Kontaktformularer på hjemmesiden</h2>
             <p>
               Oplysninger, der indsendes via vores kontaktformularer og
-              formularer til gratis prÃ¸veperioder, bruges til at besvare
-              henvendelser, behandle anmodninger om prÃ¸veperioder og
+              formularer til gratis prøveperioder, bruges til at besvare
+              henvendelser, behandle anmodninger om prøveperioder og
               kommunikere med potentielle kunder. Vi kan benytte
-              tredjepartsleverandÃ¸rer til sikker behandling og
+              tredjepartsleverandører til sikker behandling og
               levering af disse henvendelser.
             </p>
 
             <h2>5. Livechat og AI-assistance</h2>
             <p>
-              BSC Live Chat understÃ¸tter samtaler mellem hjemmesidebesÃ¸gende
-              og autoriserede menneskelige medarbejdere. AfhÃ¦ngigt af
-              tjenestens konfiguration kan AI hjÃ¦lpe med at generere
-              svarforslag eller automatisk besvare besÃ¸gendes spÃ¸rgsmÃ¥l.
+              BSC Live Chat understøtter samtaler mellem hjemmesidebesøgende
+              og autoriserede menneskelige medarbejdere. Afhængigt af
+              tjenestens konfiguration kan AI hjælpe med at generere
+              svarforslag eller automatisk besvare besøgendes spørgsmål.
               Oplysninger fra samtaler kan blive behandlet af
-              teknologileverandÃ¸rer, der bidrager til disse funktioner.
-              AI-genererede svar kan indeholde fejl og bÃ¸r ikke betragtes
-              som professionel rÃ¥dgivning.
+              teknologileverandører, der bidrager til disse funktioner.
+              AI-genererede svar kan indeholde fejl og bør ikke betragtes
+              som professionel rådgivning.
             </p>
 
-            <h2>6. BesÃ¸gssporing og analyser</h2>
+            <h2>6. Besøgssporing og analyser</h2>
             <p>
-              BSC Live Chat omfatter sporing af hjemmesidebesÃ¸gende og
-              mÃ¥nedlige aktivitetsanalyser for deltagende virksomheder.
-              Disse funktioner hjÃ¦lper virksomheder med at forstÃ¥
-              aktiviteten pÃ¥ deres hjemmesider og de besÃ¸gendes engagement.
-              De indsamlede oplysninger afhÃ¦nger af tjenestens
+              BSC Live Chat omfatter sporing af hjemmesidebesøgende og
+              månedlige aktivitetsanalyser for deltagende virksomheder.
+              Disse funktioner hjælper virksomheder med at forstå
+              aktiviteten på deres hjemmesider og de besøgendes engagement.
+              De indsamlede oplysninger afhænger af tjenestens
               implementering og konfiguration.
             </p>
 
@@ -92,104 +92,86 @@ export default function DanishPrivacyPolicy() {
 
             <h2>7. Sikkerhed</h2>
             <p>
-              Vi trÃ¦ffer rimelige foranstaltninger med henblik pÃ¥ at
-              beskytte oplysninger mod uautoriseret adgang, Ã¦ndring
+              Vi træffer rimelige foranstaltninger med henblik på at
+              beskytte oplysninger mod uautoriseret adgang, ændring
               eller videregivelse. Intet internetbaseret system
-              kan dog garantere fuldstÃ¦ndig sikkerhed.
+              kan dog garantere fuldstændig sikkerhed.
             </p>
 
-            <h2>8. Anmodninger vedrÃ¸rende personoplysninger</h2>
+            <h2>8. Anmodninger vedrørende personoplysninger</h2>
             <p>
-              Du kan kontakte os med spÃ¸rgsmÃ¥l om personoplysninger,
+              Du kan kontakte os med spørgsmål om personoplysninger,
               anmode om indsigt eller berigtigelse eller anmode om
               sletning, hvor det er relevant. Vi kan have behov
-              for at bekrÃ¦fte din identitet og tage hensyn til
-              gÃ¦ldende lovkrav, fÃ¸r vi svarer.
+              for at bekræfte din identitet og tage hensyn til
+              gældende lovkrav, før vi svarer.
             </p>
 
             <h2>9. International behandling af oplysninger</h2>
             <p>
-              Vores teknologileverandÃ¸rer kan behandle eller opbevare
+              Vores teknologileverandører kan behandle eller opbevare
               oplysninger uden for din provins eller dit land.
               Oplysninger, der behandles i en anden jurisdiktion,
-              kan vÃ¦re underlagt lovgivningen dÃ©r.
+              kan være underlagt lovgivningen dér.
             </p>
 
-            <h2>10. Samtykke og tilbagetrÃ¦kning af samtykke</h2>
+            <h2>10. Samtykke og tilbagetrækning af samtykke</h2>
             <p>
-              Vi bestrÃ¦ber os pÃ¥ at indhente et informeret og gyldigt
+              Vi bestræber os på at indhente et informeret og gyldigt
               samtykke til indsamling, anvendelse og videregivelse af
-              personoplysninger, nÃ¥r det krÃ¦ves i henhold til gÃ¦ldende
-              lovgivning. Samtykket kan afhÃ¦ngigt af forholdene vÃ¦re
-              udtrykkeligt eller underforstÃ¥et, hvor loven tillader det.
+              personoplysninger, når det kræves i henhold til gældende
+              lovgivning. Samtykket kan afhængigt af forholdene være
+              udtrykkeligt eller underforstået, hvor loven tillader det.
             </p>
             <p>
-              Du kan trÃ¦kke dit samtykke tilbage med forbehold for
-              gÃ¦ldende lovgivning og eventuelle juridiske eller
-              kontraktlige begrÃ¦nsninger. Dette kan pÃ¥virke vores
+              Du kan trække dit samtykke tilbage med forbehold for
+              gældende lovgivning og eventuelle juridiske eller
+              kontraktlige begrænsninger. Dette kan påvirke vores
               mulighed for at levere visse tjenester. Kontakt
-              info@bsctelemarketing.com for at fremsÃ¦tte en anmodning.
+              info@bsctelemarketing.com for at fremsætte en anmodning.
             </p>
 
             <h2>11. Opbevaring og sikker sletning af oplysninger</h2>
             <p>
-              Vi tilstrÃ¦ber kun at opbevare personoplysninger, sÃ¥ lÃ¦nge
-              det er nÃ¸dvendigt til de angivne formÃ¥l eller for at
-              overholde gÃ¦ldende lovkrav. Vi gennemgÃ¥r vores procedurer
+              Vi tilstræber kun at opbevare personoplysninger, så længe
+              det er nødvendigt til de angivne formål eller for at
+              overholde gældende lovkrav. Vi gennemgår vores procedurer
               for opbevaring og sletning af chathistorik,
-              besÃ¸gsanalyser, aftaleoplysninger og kontodata.
+              besøgsanalyser, aftaleoplysninger og kontodata.
             </p>
             <p>
-              Oplysninger, der ikke lÃ¦ngere er nÃ¸dvendige, bÃ¸r slettes
+              Oplysninger, der ikke længere er nødvendige, bør slettes
               sikkert eller anonymiseres under hensyntagen til
-              gÃ¦ldende lovgivning og kontraktlige forpligtelser.
+              gældende lovgivning og kontraktlige forpligtelser.
             </p>
 
-            <h2>12. Behandling hos tredjepartsleverandÃ¸rer</h2>
+            <h2>12. Behandling hos tredjepartsleverandører</h2>
             <p>
               Vi benytter tjenesteudbydere til hosting, databaser,
               kunstig intelligens, kommunikation og e-maillevering.
-              AfhÃ¦ngigt af de aktiverede tjenester kan personoplysninger
+              Afhængigt af de aktiverede tjenester kan personoplysninger
               blive behandlet uden for Canada. Udenlandske myndigheder
-              kan efter lokal lovgivning fÃ¥ adgang til oplysningerne.
+              kan efter lokal lovgivning få adgang til oplysningerne.
             </p>
 
             <h2>13. Privatlivsansvarlig og klager</h2>
             <p>
-              SpÃ¸rgsmÃ¥l og klager vedrÃ¸rende privatlivets fred kan
-              rettes til Business Solution Center pÃ¥
-              info@bsctelemarketing.com. BSC vil gennemgÃ¥ klager og
-              trÃ¦ffe passende korrigerende foranstaltninger.
-              Du kan ogsÃ¥ kontakte Office of the Privacy Commissioner
-              of Canada pÃ¥ https://www.priv.gc.ca/.
+              Spørgsmål og klager vedrørende privatlivets fred kan
+              rettes til Business Solution Center på
+              info@bsctelemarketing.com. BSC vil gennemgå klager og
+              træffe passende korrigerende foranstaltninger.
+              Du kan også kontakte Office of the Privacy Commissioner
+              of Canada på https://www.priv.gc.ca/.
             </p>
 
-            <h2>14. HÃ¥ndtering og anmeldelse af brud pÃ¥ persondatasikkerheden</h2>
+            <h2>14. Ændringer af denne politik</h2>
             <p>
-              BSC vurderer formodede og bekrÃ¦ftede brud pÃ¥
-              sikkerhedsforanstaltninger, der involverer
-              personoplysninger. NÃ¥r PIPEDA finder anvendelse,
-              skal brud, der medfÃ¸rer en reel risiko for vÃ¦sentlig
-              skade, anmeldes til Office of the Privacy
-              Commissioner of Canada, og de berÃ¸rte personer
-              skal underrettes sÃ¥ hurtigt som praktisk muligt.
-            </p>
-            <p>
-              BSC skal fÃ¸re fortegnelser over brud pÃ¥
-              sikkerhedsforanstaltninger i overensstemmelse med
-              gÃ¦ldende lovgivning. Hvis en hÃ¦ndelse involverer
-              oplysninger fra en erhvervskunde, vil BSC efter
-              omstÃ¦ndighederne koordinere med kunden.
+              Vi kan opdatere denne privatlivspolitik, når vores
+              tjenester og praksis ændrer sig. Den seneste version
+              offentliggøres på denne side med datoen for opdateringen.
             </p>
 
-            <h2>15. Ã†ndringer af denne politik</h2>
-            <p>
-              Vi kan opdatere denne privatlivspolitik, nÃ¥r vores
-              tjenester og praksis Ã¦ndrer sig. Den seneste version
-              offentliggÃ¸res pÃ¥ denne side med datoen for opdateringen.
-            </p>
-
-            <h2>16. Kontakt os</h2>
+            <h2>15. Kontakt os</h2>
             <p>
               Business Solution Center<br />
               Ontario, Canada<br />

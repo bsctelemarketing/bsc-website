@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import { PageHero } from "@/components/page-shell";
 
 export const metadata: Metadata = {
@@ -161,31 +161,14 @@ export default function PrivacyPolicy() {
               Commissioner of Canada at https://www.priv.gc.ca/.
             </p>
 
-            <h2>14. Data Breach Response and Notification</h2>
-            <p>
-              BSC assesses suspected and confirmed breaches of
-              security safeguards involving personal information.
-              Where PIPEDA applies, breaches presenting a real risk
-              of significant harm must be reported to the Office of
-              the Privacy Commissioner of Canada and affected
-              individuals notified as soon as feasible.
-            </p>
-            <p>
-              BSC is required to maintain records of breaches of
-              security safeguards in accordance with applicable law.
-              Where an incident involves a business customer's
-              information, BSC will coordinate with that customer
-              as appropriate.
-            </p>
-
-            <h2>15. Changes to This Policy</h2>
+            <h2>14. Changes to This Policy</h2>
             <p>
               We may update this Privacy Policy as our services
               and practices change. The latest version will be
               published on this page with its updated date.
             </p>
 
-            <h2>16. Contact Us</h2>
+            <h2>15. Contact Us</h2>
             <p>
               Business Solution Center<br />
               Ontario, Canada<br />
