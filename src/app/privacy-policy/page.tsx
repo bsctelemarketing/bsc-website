@@ -157,8 +157,6 @@ export default function PrivacyPolicy() {
               Business Solution Center at
               info@bsctelemarketing.com. BSC will review privacy
               concerns and take appropriate corrective measures.
-              Individuals may also contact the Office of the Privacy
-              Commissioner of Canada at https://www.priv.gc.ca/.
             </p>
 
             <h2>14. Changes to This Policy</h2>

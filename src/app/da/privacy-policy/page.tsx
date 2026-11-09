@@ -160,8 +160,6 @@ export default function DanishPrivacyPolicy() {
               rettes til Business Solution Center på
               info@bsctelemarketing.com. BSC vil gennemgå klager og
               træffe passende korrigerende foranstaltninger.
-              Du kan også kontakte Office of the Privacy Commissioner
-              of Canada på https://www.priv.gc.ca/.
             </p>
 
             <h2>14. Ændringer af denne politik</h2>
