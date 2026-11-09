@@ -18,7 +18,7 @@ export default function PrivacyPolicy() {
       <section className="section">
         <div className="container">
           <article style={{ maxWidth: 850, lineHeight: 1.8 }}>
-            <p><strong>Last updated:</strong> October 17, 2026</p>
+            <p><strong>Last updated:</strong> November 8, 2026</p>
 
             <h2>1. Introduction</h2>
             <p>
@@ -84,26 +84,11 @@ export default function PrivacyPolicy() {
               of the service.
             </p>
 
-            <h2>7. Sharing of Information</h2>
-            <p>
-              We may share information with authorized personnel,
-              participating business customers, and technology service
-              providers where necessary to operate BSC Live Chat.
-              These providers may support website hosting, databases,
-              form submissions, AI processing, and related operations.
-              We may also disclose information when required by law.
-            </p>
 
-            <h2>8. Data Retention</h2>
-            <p>
-              BSC Live Chat retains visitor chat messages and visitor
-              tracking records until an authorized administrator
-              deletes them. Other information may be retained as
-              necessary for service operations, business records,
-              legal requirements, or legitimate business purposes.
-            </p>
 
-            <h2>9. Security</h2>
+
+
+            <h2>7. Security</h2>
             <p>
               We take reasonable steps intended to protect information
               against unauthorized access, alteration, or disclosure.
@@ -111,7 +96,7 @@ export default function PrivacyPolicy() {
               absolute security.
             </p>
 
-            <h2>10. Privacy Requests</h2>
+            <h2>8. Privacy Requests</h2>
             <p>
               You may contact us to ask questions about personal
               information, request access or correction, or request
@@ -120,7 +105,7 @@ export default function PrivacyPolicy() {
               before responding.
             </p>
 
-            <h2>11. International Processing</h2>
+            <h2>9. International Processing</h2>
             <p>
               Our technology providers may process or store
               information outside your province or country.
@@ -128,14 +113,79 @@ export default function PrivacyPolicy() {
               be subject to that jurisdiction's laws.
             </p>
 
-            <h2>12. Changes to This Policy</h2>
+            <h2>10. Consent and Withdrawal of Consent</h2>
+            <p>
+              We seek meaningful consent for the collection, use, and
+              disclosure of personal information. Depending on the
+              sensitivity of the information and applicable law,
+              consent may be express or implied.
+            </p>
+            <p>
+              Individuals may withdraw consent, subject to legal or
+              contractual restrictions and reasonable notice.
+              Withdrawal may affect the availability of certain services.
+              Contact info@bsctelemarketing.com to make a request.
+            </p>
+
+            <h2>11. Data Retention and Secure Disposal</h2>
+            <p>
+              We aim to retain personal information only as long as
+              reasonably necessary for identified purposes or applicable
+              legal obligations. We are reviewing our retention and
+              deletion procedures for chat histories, visitor analytics,
+              appointment records, and account information.
+            </p>
+            <p>
+              Where information is no longer required, it should be
+              securely deleted or anonymized, subject to applicable
+              legal and contractual requirements.
+            </p>
+
+            <h2>12. Third-Party Processing</h2>
+            <p>
+              We use service providers for application hosting, database
+              services, artificial intelligence, communications, and
+              email delivery. Depending on the services enabled,
+              personal information may be processed outside Canada.
+              Foreign authorities may be able to access information
+              under applicable local laws.
+            </p>
+
+            <h2>13. Privacy Officer and Complaints</h2>
+            <p>
+              Privacy inquiries and complaints may be directed to
+              Business Solution Center at
+              info@bsctelemarketing.com. BSC will review privacy
+              concerns and take appropriate corrective measures.
+              Individuals may also contact the Office of the Privacy
+              Commissioner of Canada at https://www.priv.gc.ca/.
+            </p>
+
+            <h2>14. Data Breach Response and Notification</h2>
+            <p>
+              BSC assesses suspected and confirmed breaches of
+              security safeguards involving personal information.
+              Where PIPEDA applies, breaches presenting a real risk
+              of significant harm must be reported to the Office of
+              the Privacy Commissioner of Canada and affected
+              individuals notified as soon as feasible.
+            </p>
+            <p>
+              BSC is required to maintain records of breaches of
+              security safeguards in accordance with applicable law.
+              Where an incident involves a business customer's
+              information, BSC will coordinate with that customer
+              as appropriate.
+            </p>
+
+            <h2>15. Changes to This Policy</h2>
             <p>
               We may update this Privacy Policy as our services
               and practices change. The latest version will be
               published on this page with its updated date.
             </p>
 
-            <h2>13. Contact Us</h2>
+            <h2>16. Contact Us</h2>
             <p>
               Business Solution Center<br />
               Ontario, Canada<br />
