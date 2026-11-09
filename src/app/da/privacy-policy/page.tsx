@@ -154,7 +154,7 @@ export default function DanishPrivacyPolicy() {
               kan efter lokal lovgivning få adgang til oplysningerne.
             </p>
 
-            <h2>13. Privatlivsansvarlig og klager</h2>
+            <h2>13. Spørgsmål om personoplysninger</h2>
             <p>
               Spørgsmål og klager vedrørende privatlivets fred kan
               rettes til Business Solution Center på

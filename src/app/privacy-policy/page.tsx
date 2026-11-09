@@ -151,7 +151,7 @@ export default function PrivacyPolicy() {
               under applicable local laws.
             </p>
 
-            <h2>13. Privacy Officer and Complaints</h2>
+            <h2>13. Privacy Questions</h2>
             <p>
               Privacy inquiries and complaints may be directed to
               Business Solution Center at
