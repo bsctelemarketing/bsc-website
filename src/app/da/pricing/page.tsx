@@ -36,6 +36,7 @@ const plans = [
       "Administration af aftaler og tidsbestilling",
       "Adgang til samtaler og leads",
       "15-dages gratis prøveperiode",
+      "Ingen bindingsperiode",
     ],
   },
   {
@@ -49,6 +50,7 @@ const plans = [
       "Aftalte kvalifikationskriterier",
       "Menneskelig chatdækning",
       "15-dages gratis prøveperiode",
+      "Ingen bindingsperiode",
     ],
   },
   {
@@ -62,6 +64,7 @@ const plans = [
       "Indsamling af kundeoplysninger og leads",
       "Overblik over aftaler og gennemsigtig fakturering",
       "Intet månedligt abonnement",
+      "Ingen bindingsperiode",
     ],
   },
   {
@@ -77,6 +80,7 @@ const plans = [
       "Fleksibel dækning",
       "Tydelig aktivitetsoversigt",
       "15-dages gratis prøveperiode",
+      "Ingen bindingsperiode",
     ],
   },
 ];
