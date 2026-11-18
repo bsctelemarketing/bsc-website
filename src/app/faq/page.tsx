@@ -46,6 +46,22 @@ const faqs = [
     answer: "No. BSC Live Chat plans do not require a fixed-term contract."
   },
   {
+    question: "How does the Pay Per Qualified Lead plan work?",
+    answer: "With this plan, your business pays for qualified customer leads generated through BSC Live Chat. Lead qualification criteria and pricing are agreed upon before the service begins."
+  },
+  {
+    question: "How does the Pay Per Confirmed Appointment plan work?",
+    answer: "With this plan, your business pays for confirmed appointments booked through BSC Live Chat. Applicable booking charges and pricing are agreed upon before activation."
+  },
+  {
+    question: "How does the Pay Per Chat plan work?",
+    answer: "With this plan, your business pays for eligible customer chats handled through BSC Live Chat. Chat eligibility and pricing are agreed upon before activation."
+  },
+  {
+    question: "How can I get pricing for these plans?",
+    answer: "Contact BSC Live Chat to request pricing for Pay Per Qualified Lead, Pay Per Confirmed Appointment, or Pay Per Chat. These plans have no fixed-term contract."
+  },
+  {
     question: "How can I get started?",
     answer: "Visit our Free Trial page to request a trial or apply for the 6-Month Free Plan."
   }
@@ -74,3 +90,4 @@ export default function FAQPage() {
     </main>
   );
 }
+

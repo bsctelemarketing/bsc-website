@@ -46,6 +46,22 @@ const faqs = [
     answer: "Nej. BSC Live Chat kræver ingen fast bindingsperiode."
   },
   {
+    question: "Hvordan fungerer betaling pr. kvalificeret lead?",
+    answer: "Med denne plan betaler din virksomhed for kvalificerede kundehenvendelser, der genereres via BSC Live Chat. Kriterier for kvalificering og priser aftales, før tjenesten starter."
+  },
+  {
+    question: "Hvordan fungerer betaling pr. bekræftet aftale?",
+    answer: "Med denne plan betaler din virksomhed for bekræftede aftaler, der bookes via BSC Live Chat. Gældende bookinggebyrer og priser aftales før aktivering."
+  },
+  {
+    question: "Hvordan fungerer betaling pr. chat?",
+    answer: "Med denne plan betaler din virksomhed for berettigede kundechats, der håndteres via BSC Live Chat. Kriterier og priser aftales før aktivering."
+  },
+  {
+    question: "Hvordan får jeg priser på disse planer?",
+    answer: "Kontakt BSC Live Chat for at få priser på betaling pr. kvalificeret lead, pr. bekræftet aftale eller pr. chat. Planerne har ingen fast bindingsperiode."
+  },
+  {
     question: "Hvordan kommer jeg i gang?",
     answer: "Besøg siden med gratis prøveperiode for at anmode om en prøveperiode eller ansøge om den gratis 6-måneders plan."
   }
@@ -74,3 +90,4 @@ export default function DanishFAQPage() {
     </main>
   );
 }
+
