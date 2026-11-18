@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { CheckList, PageHero } from "@/components/page-shell";
 import type { Metadata } from "next";
 
@@ -19,7 +19,7 @@ const plans = [
       "Livechat-widget til hjemmesiden",
       "Beskeder fra besøgende i realtid",
       "Grundlæggende chathistorik",
-      "Ingen bindingsperiode",
+      "Livechat-widget med jeres virksomhedsnavn","Ingen bindingsperiode",
       "Ingen automatisk overgang til en betalingsplan efter 6 måneder",
     ],
   },
@@ -36,7 +36,7 @@ const plans = [
       "Administration af aftaler og tidsbestilling",
       "Adgang til samtaler og leads",
       "15-dages gratis prøveperiode",
-      "Ingen bindingsperiode",
+      "Livechat-widget med jeres virksomhedsnavn","Ingen bindingsperiode",
     ],
   },
   {
@@ -50,7 +50,7 @@ const plans = [
       "Aftalte kvalifikationskriterier",
       "Menneskelig chatdækning",
       "15-dages gratis prøveperiode",
-      "Ingen bindingsperiode",
+      "Livechat-widget med jeres virksomhedsnavn","Ingen bindingsperiode",
     ],
   },
   {
@@ -64,7 +64,7 @@ const plans = [
       "Indsamling af kundeoplysninger og leads",
       "Overblik over aftaler og gennemsigtig fakturering",
       "Intet månedligt abonnement",
-      "Ingen bindingsperiode",
+      "Livechat-widget med jeres virksomhedsnavn","Ingen bindingsperiode",
     ],
   },
   {
@@ -80,7 +80,7 @@ const plans = [
       "Fleksibel dækning",
       "Tydelig aktivitetsoversigt",
       "15-dages gratis prøveperiode",
-      "Ingen bindingsperiode",
+      "Livechat-widget med jeres virksomhedsnavn","Ingen bindingsperiode",
     ],
   },
 ];
