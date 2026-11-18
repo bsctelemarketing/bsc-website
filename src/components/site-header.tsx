@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -8,6 +8,7 @@ const englishLinks = [
   ["Services", "/services"],
   ["How It Works", "/how-it-works"],
   ["Pricing", "/pricing"],
+  ["FAQ", "/faq"],
   ["Industries", "/industries"],
   ["Partners", "/partners"],
   ["About Us", "/about"],
@@ -18,6 +19,7 @@ const danishLinks = [
   ["Tjenester", "/da/services"],
   ["Sådan fungerer det", "/da/how-it-works"],
   ["Priser", "/da/pricing"],
+  ["FAQ", "/da/faq"],
   ["Brancher", "/da/industries"],
   ["Partnere", "/da/partners"],
   ["Om os", "/da/about"],
